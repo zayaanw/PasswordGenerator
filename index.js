@@ -3,14 +3,16 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let password1El = document.querySelector("#password1-el")
 
-let password = ""
+let generateEl = document.querySelector("#generate")
 
-function generatepassword(){
+
+generateEl.addEventListener("click", function(){
+    let password = ""
     while (password.length < 15){
         let i = Math.floor(Math.random()*characters.length)
         password += characters[i]
     }
     password1El.textContent = password
 }
-
+)
 
