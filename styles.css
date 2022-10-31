@@ -13,3 +13,14 @@ h1{
 #desc{
     color: #D5D4D8;
 }
+
+#password1-el{
+    color:#D5D4D8
+}
+
+#generate{
+    background:  #10B981;
+    padding: 7px 10px;
+    border-radius: 5px;
+    color: #ffff
+}

@@ -5,10 +5,12 @@ let password1El = document.querySelector("#password1-el")
 
 let password = ""
 
-
-while (password.length < 15){
-    let i = Math.floor(Math.random()*characters.length)
-    password += characters[i]
+function generatepassword(){
+    while (password.length < 15){
+        let i = Math.floor(Math.random()*characters.length)
+        password += characters[i]
+    }
+    password1El.textContent = password
 }
 
-password1El.textContent = password
+
