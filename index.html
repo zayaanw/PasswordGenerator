@@ -11,17 +11,18 @@
             <h1 id="headingdesc">Generate a <span id="green"><br>random password</span></h1>
             <p id="desc">Never use an insecure password again.</p>
         </div>
-        <button id="generate">Generate passwords</button>
+        <div id="genlength">
+            <button id="generate">Generate passwords</button>
+            <div class="rangeslider">
+                <input class="myslider" id="sliderRange" type="range" min="1" max="15" value="15">
+                <p id="lengthdesc">Password length: <span id="pwlength"></span></p>
+              </div>
+        </div>
         <div id="line"></div>
-        <div id="password"></div>
         <div id="pwbox">
             <p id="password1-el"></p>
             <p id="password2-el"></p>
         </div>
-        <div class="rangeslider">
-            <input class="myslider" id="sliderRange" type="range" min="1" max="15" value="15">
-            <p>Password length: <span id="pwlength"></span></p>
-          </div>
         <script src="index.js"></script>
     </body>
 </html>
