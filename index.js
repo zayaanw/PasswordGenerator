@@ -3,9 +3,14 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let password1El = document.querySelector("#password1-el")
 let password2El = document.querySelector("#password2-el")
-
-
+let rangeslider = document.getElementById("sliderRange");
 let generateEl = document.querySelector("#generate")
+let output = document.getElementById("pwlength");
+output.innerHTML = rangeslider.value;
+  
+rangeslider.oninput = function() {
+  output.innerHTML = this.value;
+}
 
 
 generateEl.addEventListener("click", function(){
