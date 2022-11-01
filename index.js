@@ -2,17 +2,24 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 let password1El = document.querySelector("#password1-el")
+let password2El = document.querySelector("#password2-el")
+
 
 let generateEl = document.querySelector("#generate")
 
 
 generateEl.addEventListener("click", function(){
-    let password = ""
-    while (password.length < 15){
+    let password1 = ""
+    while (password1.length < 15){
         let i = Math.floor(Math.random()*characters.length)
-        password += characters[i]
+        password1 += characters[i]
     }
-    password1El.textContent = password
+    password1El.textContent = password1
+    let password2 = ""
+    while (password2.length < 15){
+        let i = Math.floor(Math.random()*characters.length)
+        password2 += characters[i]
+    }
+    password2El.textContent = password2
 }
 )
-

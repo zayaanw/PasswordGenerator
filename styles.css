@@ -49,6 +49,8 @@ h1{
     width: 200px;
     height: 40px;
     line-height: 40px;
+    color: #55F991;
+    font-family: 'Inter', sans-serif;
 }
 
 #password2-el{
@@ -59,6 +61,8 @@ h1{
     width: 200px;
     height: 40px;
     line-height: 40px;
+    color: #55F991;
+    font-family: 'Inter', sans-serif;
 }
 
 #generate{
