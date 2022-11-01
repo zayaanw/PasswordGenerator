@@ -15,13 +15,13 @@ rangeslider.oninput = function() {
 
 generateEl.addEventListener("click", function(){
     let password1 = ""
-    while (password1.length < 15){
+    while (password1.length < output.innerHTML){
         let i = Math.floor(Math.random()*characters.length)
         password1 += characters[i]
     }
     password1El.textContent = password1
     let password2 = ""
-    while (password2.length < 15){
+    while (password2.length < output.innerHTML){
         let i = Math.floor(Math.random()*characters.length)
         password2 += characters[i]
     }
