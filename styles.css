@@ -13,28 +13,59 @@ h1{
     margin-bottom: 0px;
     font-size: 20px;
     font-family: 'Karla', sans-serif;
+    font-weight: bold;
+}
+
+#green{
+    color: #4ADF86;
+    font-weight: bold;
 }
 
 #desc{
     margin-top: 0px;
-}
-
-#green{
-    color: #4ADF86
-}
-
-#desc{
     color: #D5D4D8;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+}
+
+#line{
+    margin-top: 30px;
+    height: 0px;
+    width: 1000px;
+    border: 1px solid #2F3E53
+}
+
+#pwbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #password1-el{
-    color:#D5D4D8
+    text-align: center;
+    color:#D5D4D8;
+    background: #273549;
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#password2-el{
+    text-align: center;
+    color:#D5D4D8;
+    background: #273549;
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
 }
 
 #generate{
     background:  #10B981;
-    padding: 7px 10px;
-    border-radius: 5px;
+    padding: 10px 10px;
+    border-radius: 6px;
     color: #ffff;
     font-weight: 700;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 }
