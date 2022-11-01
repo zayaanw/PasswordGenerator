@@ -16,6 +16,10 @@ h1{
     font-weight: bold;
 }
 
+#headingdesc{
+    margin-bottom: 10px;
+}
+
 #green{
     color: #4ADF86;
     font-weight: bold;
@@ -66,6 +70,7 @@ h1{
 }
 
 #generate{
+    margin-top: 20px;
     background:  #10B981;
     padding: 10px 10px;
     border-radius: 6px;
