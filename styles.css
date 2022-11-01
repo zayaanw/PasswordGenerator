@@ -6,6 +6,19 @@ h1{
     color: white;
 }
 
+#header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+}
+
+#desc{
+    margin-top: 0px;
+}
+
 #green{
     color: #4ADF86
 }
