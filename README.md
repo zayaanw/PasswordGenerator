@@ -1,3 +1,3 @@
-#15 Character Random Password Generator
+# 15 Character Random Password Generator
 
 Simple password generator using vanilla JavaScript.
